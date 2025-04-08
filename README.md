@@ -18,7 +18,7 @@ The visual design and Figma mockups were created by **Sarah** to guide the overa
 
 ## 📌 Project Overview
 
-Taco Loco is a modern restaurant website that allows customers to:
+Taco Loco is a restaurant website that allows the user to:
 
 - Make table reservations
 - Administrate the reservations
@@ -30,5 +30,5 @@ Built with responsive design and smooth transitions to offer an enjoyable user e
 
 - **Frontend**: React (with TypeScript)
 - **Styling**: Tailwind CSS
-- **State Management**: React Context API
+- **State Management**: React Context
 - **Animations**: Headless UI
