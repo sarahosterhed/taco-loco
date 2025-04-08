@@ -258,7 +258,7 @@ export const AdminPage = () => {
           <BeatLoader color="#FFBB43" />
         </div>
       )}
-      {bookings.map((booking) => (
+      {[...bookings].reverse().map((booking) => (
         <AdminBooking key={booking._id} booking={booking} onDelete={handleDelete} openEditBooking={openEditBooking} />
       ))}
     </div>
