@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Denk+One&family=Rajdhani:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-purple: #0d0d3a;
+  --color-blue: #3bc4ff;
+  --color-pink: #be1483;
+  --color-neon-pink: #ff39fa;
+  --color-orange: #ffbb43;
+  --color-yellow: #fcff65;
+
+  --font-denk-one: "Denk One", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --text-4xl: 2rem;
+  --text-5xl: 2.5rem;
+
+  --animate-slide-in: slide-in 0.2s ease-in-out forwards;
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}
+
+h1 {
+  font-family: "Denk One";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Rajdhani";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
