@@ -1,51 +1,34 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Kw4xawFN)
-# React + TypeScript + Vite
+# Taco Loco
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a collaborative web application for the fictive restaurant Taco Loco, developed to provide users with an interactive platform to explore and book reservations.
 
-Currently, two official plugins are available:
+## 🌮 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check it out here: [https://taco-loco.netlify.app/](https://taco-loco.netlify.app/)
 
-## Expanding the ESLint configuration
+## 👥 Team Members
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Sarah**
+- **Nicholas**
+- **Carl**
+- **Jonathan**
 
-- Configure the top-level `parserOptions` property like this:
+The visual design and Figma mockups were created by **Sarah** to guide the overall look and feel of the site.
+[https://www.figma.com/design/GD69Mket9eN9EqrX7VJiB0/TacoLoco?node-id=0-1&t=z9YdSFjnBSs8hsM5-1]
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📌 Project Overview
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Taco Loco is a modern restaurant website that allows customers to:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Make table reservations
+- Administrate the reservations
+- Contact the restaurant
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Built with responsive design and smooth transitions to offer an enjoyable user experience across devices.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (with TypeScript)
+- **Styling**: Tailwind CSS
+- **State Management**: React Context API
+- **Animations**: Headless UI
